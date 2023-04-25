@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+header {
+  background-color: #333333;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+main {
+  padding: 30px 0;
+  /* border: solid black 2px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.job {
+  height: 380px;
+  width: 380px;
+  border-style: solid;
+  border-width: 10px;
+  /* border: solid yellow 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: #e5e5e5;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  border-color: red;
+}
+
+.green {
+  border-color: green;
+}
+
+.yellow {
+  border-color: yellow;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.pink {
+  border-color: pink;
+}
